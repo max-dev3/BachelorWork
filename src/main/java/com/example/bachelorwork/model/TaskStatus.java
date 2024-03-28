@@ -1,2 +1,5 @@
-package com.example.bachelorwork.model;public class TaskStatus {
+package com.example.bachelorwork.model;
+
+public enum TaskStatus {
+    NEW, IN_PROGRESS, COMPLETED
 }

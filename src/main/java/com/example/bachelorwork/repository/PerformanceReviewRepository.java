@@ -1,2 +1,7 @@
-package com.example.bachelorwork.repository;public interface PerformanceReviewRepository {
+package com.example.bachelorwork.repository;
+
+import com.example.bachelorwork.model.PerformanceReview;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PerformanceReviewRepository extends JpaRepository<PerformanceReview, Long> {
 }
